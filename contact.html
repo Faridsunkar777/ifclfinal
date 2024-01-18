@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>IFCL</title>
+  <meta name="title" content="IFCL">
+  <meta name="description" content="IFCL">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/ifcllogo.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/contactus.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/ifcl1.jpg">
+  <link rel="preload" as="image" href="./assets/images/ifcl2.jpg">
+  <link rel="preload" as="image" href="./assets/images/ifcl3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">IFCL</p>
+  </div>
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          31/F, Tower One Times Square, 1 Matheson Street , Causeway Bay , Hong Kong.
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <a href="tel:+11234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+254727404445</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span"> info@ifclholdings.com</span>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+  
+      <a href="#" class="logo">
+        <img src="./assets/images/ifcllogo.png" width="160" height="50" alt="Grilli - Home">
+      </a>
+  
+      <nav class="navbar" data-navbar>
+  
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+  
+        <a href="#" class="logo">
+          <img src="./assets/images/ifcllogo.png" width="160" height="50" alt="ifcl">
+        </a>
+  
+        <ul class="navbar-list">
+  
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+              <span class="span">HOME</span>
+            </a>
+          </li>
+  
+          <li class="navbar-item dropdown">
+            <div class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <!-- <span class="span">SUBSIDIARIES</span> -->
+              <a href="javascript:void(0)" class="dropbtn span">SUBSIDIARIES</a>
+              <div class="dropdown-content">
+                <a href="lande.html">Lande International Company</a>
+                <a href="mazen.html">Mazen Royal Furnishers</a>
+                <a href="zenk.html">Zenk Enterprises Limited</a>
+                <a href="iron.html">Iron Furnitures</a>
+              </div>
+            </div>
+          </li>
+  
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">CONTACT US</span>
+            </a>
+          </li>
+  
+        </ul>
+  
+        <!-- Rest of the code remains unchanged -->
+  
+      </nav>
+  
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+  
+      <div class="overlay" data-nav-toggler data-overlay></div>
+  
+    </div>
+  </header>
+  
+
+  <main>
+    <article>
+
+
+
+       <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi text-center"
+        style="background-color: var(--goldcrayola)" aria-label="testimonials">
+        <div class="container">
+
+         
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RESERVATION
+      -->
+
+      <section class="reservation">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <form action="" class="form-left">
+
+              <h2 class="headline-1 text-center">Leave us a Message</h2>
+
+              <p class="form-text text-center">
+                Contact us on <a href="tel:+88123123456" class="link">+254727404445</a>
+                or leave us a message
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+
+                <input type="email" name="email" placeholder="Email" autocomplete="off" class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+
+
+
+              </div>
+
+              <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">SUBMIT</span>
+
+                <span class="text text-2" aria-hidden="true">SUBMIT</span>
+              </button>
+
+            </form>
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+
+              <h2 class="headline-1 text-center">Contact Us</h2>
+
+              <p class="contact-label">Booking Request</p>
+
+              <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+254727404445</a>
+
+            
+              <div class="separator"></div>
+
+              <p class="contact-label">Location</p>
+
+              <address class="body-4">
+                31/F, Tower One Times Square, 1 Matheson Street , Causeway Bay , Hong Kong.
+              </address>
+
+              <p class="contact-label">Email Us</p>
+             
+              <p class="body-4">
+                info@ifclholdings.com
+              </p>
+
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
